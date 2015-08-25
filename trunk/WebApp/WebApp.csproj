@@ -1,0 +1,205 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8D8DC34E-DFA5-4729-9893-805CBB70EA6D}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WxSpace</RootNamespace>
+    <AssemblyName>WebApp</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="WxSpace, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\WxSpace\bin\Debug\WxSpace.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\columns\ColumnsEdit.aspx" />
+    <Content Include="Admin\Default.aspx" />
+    <Content Include="Admin\images\base.gif" />
+    <Content Include="Admin\images\calendar.gif" />
+    <Content Include="Admin\images\catch.gif" />
+    <Content Include="Admin\images\data.gif" />
+    <Content Include="Admin\images\dot.gif" />
+    <Content Include="Admin\images\empty.gif" />
+    <Content Include="Admin\images\event.gif" />
+    <Content Include="Admin\images\folder.gif" />
+    <Content Include="Admin\images\folderopen.gif" />
+    <Content Include="Admin\images\folders.gif" />
+    <Content Include="Admin\images\globe.gif" />
+    <Content Include="Admin\images\help.gif" />
+    <Content Include="Admin\images\ip.gif" />
+    <Content Include="Admin\images\join.gif" />
+    <Content Include="Admin\images\joinbottom.gif" />
+    <Content Include="Admin\images\junk.gif" />
+    <Content Include="Admin\images\left_bg.gif" />
+    <Content Include="Admin\images\line.gif" />
+    <Content Include="Admin\images\loadingAnimation.gif" />
+    <Content Include="Admin\images\main_bg.gif" />
+    <Content Include="Admin\images\minus.gif" />
+    <Content Include="Admin\images\minusbottom.gif" />
+    <Content Include="Admin\images\outbox.gif" />
+    <Content Include="Admin\images\page.gif" />
+    <Content Include="Admin\images\panel.gif" />
+    <Content Include="Admin\images\plus.gif" />
+    <Content Include="Admin\images\plusbottom.gif" />
+    <Content Include="Admin\images\Rect.gif" />
+    <Content Include="Admin\images\rectNoColor.gif" />
+    <Content Include="Admin\images\root.gif" />
+    <Content Include="Admin\images\sentItems.gif" />
+    <Content Include="Admin\images\setting.gif" />
+    <Content Include="Admin\images\template.gif" />
+    <Content Include="Admin\images\top_bg.gif" />
+    <Content Include="Admin\images\tree_empty.gif" />
+    <Content Include="Admin\images\tree_file.gif" />
+    <Content Include="Admin\images\tree_folder.gif" />
+    <Content Include="Admin\images\tree_folderopen.gif" />
+    <Content Include="Admin\images\tree_line.gif" />
+    <Content Include="Admin\images\tree_linebottom.gif" />
+    <Content Include="Admin\images\tree_linemiddle.gif" />
+    <Content Include="Admin\images\tree_minus.gif" />
+    <Content Include="Admin\images\tree_minusbottom.gif" />
+    <Content Include="Admin\images\tree_minusmiddle.gif" />
+    <Content Include="Admin\images\tree_plus.gif" />
+    <Content Include="Admin\images\tree_plusbottom.gif" />
+    <Content Include="Admin\images\tree_plusmain.gif" />
+    <Content Include="Admin\images\tree_plusmiddle.gif" />
+    <Content Include="Admin\images\tree_plustop.gif" />
+    <Content Include="Admin\images\Users.gif" />
+    <Content Include="Admin\javascript\Tree.JS" />
+    <Content Include="Admin\main\bottom.aspx" />
+    <Content Include="Admin\main\left.aspx" />
+    <Content Include="Admin\main\main.aspx" />
+    <Content Include="Admin\main\top.aspx" />
+    <Content Include="Admin\style\StyleSheet.css" />
+    <Content Include="Admin\columns\Default.aspx" />
+    <Content Include="Admin\columns\ColumnsAdd.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\columns\ColumnsEdit.aspx.cs">
+      <DependentUpon>ColumnsEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\columns\ColumnsEdit.aspx.designer.cs">
+      <DependentUpon>ColumnsEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\main\bottom.aspx.cs">
+      <DependentUpon>bottom.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\main\bottom.aspx.designer.cs">
+      <DependentUpon>bottom.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\main\left.aspx.cs">
+      <DependentUpon>left.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\main\left.aspx.designer.cs">
+      <DependentUpon>left.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\main\main.aspx.cs">
+      <DependentUpon>main.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\main\main.aspx.designer.cs">
+      <DependentUpon>main.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\main\top.aspx.cs">
+      <DependentUpon>top.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\main\top.aspx.designer.cs">
+      <DependentUpon>top.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\columns\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\columns\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\columns\ColumnsAdd.aspx.cs">
+      <DependentUpon>ColumnsAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\columns\ColumnsAdd.aspx.designer.cs">
+      <DependentUpon>ColumnsAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1073</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

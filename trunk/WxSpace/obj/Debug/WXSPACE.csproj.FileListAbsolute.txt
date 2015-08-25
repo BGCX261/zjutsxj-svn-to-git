@@ -1,0 +1,10 @@
+G:\企业网站\ASPNET2008\5XSPACE\obj\Debug\ResolveAssemblyReference.cache
+G:\企业网站\ASPNET2008\5XSPACE\bin\Debug\5XSPACE.dll
+G:\企业网站\ASPNET2008\5XSPACE\bin\Debug\5XSPACE.pdb
+G:\企业网站\ASPNET2008\5XSPACE\obj\Debug\5XSPACE.dll
+G:\企业网站\ASPNET2008\5XSPACE\obj\Debug\5XSPACE.pdb
+G:\企业网站\ASPNET2008\WXSPACE\obj\Debug\ResolveAssemblyReference.cache
+G:\企业网站\ASPNET2008\WXSPACE\bin\Debug\WXSPACE.dll
+G:\企业网站\ASPNET2008\WXSPACE\bin\Debug\WXSPACE.pdb
+G:\企业网站\ASPNET2008\WXSPACE\obj\Debug\WXSPACE.dll
+G:\企业网站\ASPNET2008\WXSPACE\obj\Debug\WXSPACE.pdb

@@ -1,0 +1,58 @@
+﻿body {margin:3px 3px 0px 3px;font-size:12px;color: #003399;}
+img{border:0px;}
+/*内页顶部CSS开始*/
+.Top_Div{background-color: #E7F4F9; line-height:25px; border:solid 1px #C7D6E4; margin-bottom:3px; float:left; width:100%;}
+.Top_Div1{margin-bottom:3px; width:100%;}
+.Top_Div2{background-color: #E7F4F9;border:solid 1px #C7D6E4;height:25px; line-height:25px; margin-bottom:3px;}
+
+.Top_bgcolor_right
+{
+	float:left;
+	color: #ccccff; 
+	background-color: #E7F4F9; 
+	font-weight:bold; 
+	height:25px; 
+	line-height:25px; 
+	width:100px;
+	text-align:center;
+	border-right:solid 1px #C7D6E4; 
+}
+
+.Top_bg_right
+{
+	float:left;
+	color:#336666; 
+	background-color:#FFFFFF; 
+	font-weight:bold; 
+	height:25px; 
+	line-height:25px;
+	width:100px;
+	border-right:solid 1px #C7D6E4; 
+	text-align:center;
+}
+
+.Top a:link{color: #ccccff;text-decoration: none;}
+.Top a:visited{color: #ccccff;text-decoration: none;}
+.Top a:hover{color: #ccccff;text-decoration: underline;}
+.Top a:active{color: #ccccff;text-decoration: none;}
+
+.Top1 a:link{color: #336666;text-decoration: none;}
+.Top1 a:visited{color: #336666;text-decoration: none;}
+.Top1 a:hover{color: #336666;text-decoration: underline;}
+.Top1 a:active{color: #336666;text-decoration: none;}
+
+/*内页顶部CSS结束*/
+
+/*内页中间部分 标题类 开始*/
+.Body_Header{background-color: #E7F4F9; height:23px;}
+.Body_Row{height:20px;}
+.Body_border
+{
+	border:solid 1px #C7D6E4;
+}
+/*内页中间部分 标题类 结束*/
+
+a:link {color: #003399;text-decoration: none;}
+a:visited {color: #003399;text-decoration: none;}
+a:hover {color: #999999;text-decoration: underline;}
+a:active {color: #003399;text-decoration: none;}

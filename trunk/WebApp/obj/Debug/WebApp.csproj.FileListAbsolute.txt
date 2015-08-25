@@ -1,0 +1,7 @@
+G:\企业网站\ASPNET2008\WebApp\bin\WebApp.dll
+G:\企业网站\ASPNET2008\WebApp\bin\WebApp.pdb
+G:\企业网站\ASPNET2008\WebApp\obj\Debug\ResolveAssemblyReference.cache
+G:\企业网站\ASPNET2008\WebApp\obj\Debug\WebApp.dll
+G:\企业网站\ASPNET2008\WebApp\obj\Debug\WebApp.pdb
+G:\企业网站\ASPNET2008\WebApp\bin\WxSpace.dll
+G:\企业网站\ASPNET2008\WebApp\bin\WxSpace.pdb
